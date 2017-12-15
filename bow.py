@@ -1,7 +1,9 @@
 import torch
 import torch.nn as nn
 
+  
 
+  
 class BOW(nn.Module):
 
     def __init__(self, vocab_size, embed_size, n_corpus):
